@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/* TODAS */
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+/* TODAS */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+html,body {
+    height: 100%;
+}
+
+body {
+    background: #212529;
+    color: #f8f9fa;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.96rem;
+    font-weight: 300;
+}
+
+
+
+
+header {
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 0 0 10px 10px;
+    border-bottom: rgba(255, 255, 255, 0.08) solid 1px;
+    margin: 0 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: absolute;
+    z-index: 3;
+    width: calc(100% - 14px);
+}
+
+.logo {
+    color: #df7965;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: inline-block;
+    padding: 6px 15px;
+}
+
+#chk-toggle {
+    display: none;
+}
+
+#toggle {
+    display: inline-block;
+    padding: 11px;
+
+}
+
+#toggle span {
+    display: block;
+    width: 22px;
+    height: 3px;
+    background: #7209b7;
+    margin: 2px;
+}
+
+nav {
+    flex-basis: 100%; 
+    height: 0;
+    overflow: hidden;
+}
+
+nav ul {
+    margin: 0 15px;
+    list-style: none;
+}
+
+nav ul li {
+    border-bottom: rgba(255, 255, 255, 0.06) solid 1px;
+}
+
+nav ul li:nth-last-child(1) {
+    border-bottom: none;
+}
+
+nav a {
+    color: #df7965;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 0.98rem;
+    padding: 8px;    
+}
+
+a:hover {
+    color: #f2e9e4;
+}
+
+i:hover {
+    color: #f2e9e4;
+}
+
+#chk-toggle:checked ~nav{
+    height: auto;
+}
+
+
+.central {
+    display: flex;
+}
+
+
+.headline {
+    display: flex;
+    height: 70%;
+    justify-content: center;
+    margin: 0 15px;
+    flex-direction: column;
+}
+
+h1 {
+    color: #f8f9fa;
+    font-size: 2.4rem;
+    text-shadow: 01px 01px 5px rgba(0, 0, 0, 0.2);
+    line-height: 3.3rem;
+}
+
+h1 span {
+    color: #40916c;
+    display: block;
+}
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    background: #df7965;
+    border: #df7965 solid 1px;
+    border-radius: 0.3rem;
+    color: #f2e9e4;
+    padding: 5px 24px;
+    margin: 4px;
+    font-size: 0.9rem;
+    
+    
+
+}
+
+.ladoalado { 
+    display: flex;
+    margin: 10 -3px;
+}
+
+
+.clean {
+    border: #fff solid 2px;
+    background: transparent;
+}
+
+.img43 {
+    margin: 0% auto;
+    height: 50%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+    
+    h2 {
+        
+        font-weight: 700;
+        margin-bottom: 10px;
+        color: #df7965;
+        text-transform: uppercase;
+    }
+    
+    section {
+        margin: 0 15px 30px 15px;
+        clear: both;
+        padding-top: 30px;
+    }
+    
+  
+    
+    footer {
+        background: #212529;
+        padding: 120px 0;
+        text-align: center;
+        margin-top: 40px;
+        clear: both;
+    }
+    
+    .redes {
+        display: flex;
+        justify-content: center;
+        margin-top: 8px;
+        margin-bottom: 25px;
+    }
+    
+    .redes a {
+        display: flex;
+        background: #df7965;
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        font-size: 1.2rem;
+        color: #f2e9e4;
+    }
+    
+    .copy {
+        color: rgba(255,255,255, 0.3)
+    }
+    
+    .micalt {
+        min-width: 259px;
+        width: 90%;
+    }
+    
+    .central {
+        height: 100%;
+      }
+      
+    
+      @media only screen and (max-width: 400px) {
+        .bg {
+            background: url('mic_final.png') no-repeat center;
+            background-size: contain;
+        }
+      }
+    
+    
+    @media only screen and (min-width: 500px){
+        .videos ul li {
+            width: 65%;
+            
+            
+        }
+    }
+    
+    @media only screen and (min-width: 600px) {
+        .videos {
+            white-space: normal;
+            width: 100%;
+        }
+    
+        .videos ul li {
+            width: 50%;
+        }
+    
+        h1 {
+            font-size: 5rem;
+            line-height: 4.3rem;
+        }
+    
+        .btn {
+            font-size: 1.18rem;
+        }
+    }
+    
+    
+    
+    
+    @media only screen and (min-width: 700px) {
+        nav {
+            height: auto;
+            overflow-y: unset;
+            flex-basis: unset;
+        }
+    
+        #toggle{
+            display: none;
+        }
+    
+        nav ul li {
+            display: inline-block;
+            border-bottom: none;
+        }
+    
+        nav a {
+            padding: 8px 12px;
+        }
+    }
+    
+    @media only screen and (min-width: 850px) {
+    
+    
+    
+        .spacevid {
+            width: 63%;
+            float: left;
+        }
+    
+        .boxassine {
+            width: 35%;
+            float: right;
+        }
+    
+        .clear {
+            clear: both;
+        }
+    
+        h1 {
+            font-size: 7rem;
+            line-height: 6.5rem;
+        }
+        .btn {
+            font-size: 1.85rem;
+        }
+    }
+    
+
+@media only screen and (min-width: 1200px) {
+
+    body {
+        font-size: 1.5rem;
+        
+    }
+    section, .central {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
+  .central {
+    height: 100%;
+    
+  }
+
+  header {
+    padding: 8px;
+    border-radius: 0 0 17px 17px;
+    width: 50%;
+    
+  }
+
+  h1 {
+    margin-bottom: 36px;
+  }
+
+  .w43 {
+    width: 32%;
+  }
+
+  .videos ul li {
+   
+    padding: 15px;
+  }
+
+  .videos ul {
+    margin: -15px;
+  }
+
+  .videos {
+    overflow-y: unset;
+  }
+
+  .boxassine {
+    width: 30%;
+  }
+
+  .boxassine {
+    margin-top: 49px;
+    min-height: 484px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bg {
+    background-size: 800px;
+    
+  }
+
+
+  .juntos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img43 {
+    margin: 20% auto;
+    height: 60%;
+    width: 100%;
+}
+
+.headline {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin: 0px;
+    flex-direction: column;
+}
+
+}
